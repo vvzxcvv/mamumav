@@ -17,7 +17,7 @@
 //   }
 // }
 
-function clickEvent() {
+function loanCalculator() {
   const value = prompt("skolko deneg");
   const monthNumber = prompt("kakoi mesyatc");
 
@@ -26,5 +26,5 @@ function clickEvent() {
     return definedMonth;
   };
 
-  console.log(`v ${monthNumber} mesyace ti ewe doljen ${loanCalc(value)}`);
+  alert(`v ${monthNumber} mesyace ti ewe doljen ${loanCalc(value)}rub`);
 }
