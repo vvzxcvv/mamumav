@@ -86,7 +86,7 @@ function summation() {
 function findSmallestInt() {
   let userInput = [];
   while (true) {
-    let input = prompt("введите число");
+    let input = prompt("введите число (esc или отмена чтобы закончить)");
     if (input === !Number || input == null || input == "") break;
 
     userInput.push(Number(input));
